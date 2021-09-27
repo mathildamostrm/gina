@@ -1,10 +1,14 @@
 import React from 'react'
-import { InfoSection } from '../../components'
-import { homeObjOne, homeObjTwo } from './Data'
+import { AdventureSection } from '../../components'
+import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data'
 
 function Adventures() {
   return (
     <>
+    <AdventureSection {...homeObjOne} />
+    <AdventureSection {...homeObjTwo} />
+    <AdventureSection {...homeObjThree} />
+    <AdventureSection {...homeObjFour} />
     </>
   );
 }

@@ -1,10 +1,11 @@
 import React from 'react'
-import { InfoSection } from '../../components'
+import { BlogSection } from '../../components'
 import { homeObjOne, homeObjTwo } from './Data'
 
 function Blog() {
   return (
     <>
+    <BlogSection {... homeObjOne}/>
     </>
   );
 }

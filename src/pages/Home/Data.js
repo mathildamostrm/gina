@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'COMING EXPEDITION',
-    headline: 'Solo to the South Pole',
+    headline: 'SOLO TO THE SOUTH POLE',
     description:
       'Unsupported solo crossing from Hercules Inlet to the South Pole with a goal to set a new women speed record.',
     buttonLabel: 'THE EXHIBITION',
@@ -26,7 +26,7 @@ export const homeObjOne = {
     headline: 'The page is under construction',
     description:
       "BLOG",
-    buttonLabel: 'Learn More',
+    buttonLabel: 'READ MORE',
     imgStart: '',
     img: require('../../images/svg-2.webp').default,
     alt: 'Vault',
