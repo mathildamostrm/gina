@@ -14,3 +14,5 @@ export { default as SouthPoleTeamSection } from './SouthPoleSection/SouthPoleTea
 export { default as AdventureSection } from './AdventureSection/AdventureSection'
 
 export { default as BlogSection } from './BlogSection/BlogSection'
+
+export { default as SponsorSection } from './SponsorSection/SponsorSection'

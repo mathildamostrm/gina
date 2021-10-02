@@ -41,10 +41,8 @@ export const homeObjOne = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'MY ADVENTURES',
-    headline:
-      'The page is under construction',
-    description:
-      "",
+    headline: 'Life is to short to do things that doesnspont make us happy',
+    description: '',
     buttonLabel: 'READ MORE',
     imgStart: 'start',
     img: require('../../images/profile.jpg').default,
@@ -60,7 +58,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'SPONSORS',
-    headline: 'The page is under construction',
+    headline: 'Some good text?',
     description:
       '',
     buttonLabel: 'READ MORE',

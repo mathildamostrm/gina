@@ -1,12 +1,13 @@
 import React from 'react'
-import { InfoSection, Pricing } from '../../components'
-import { homeObjOne, homeObjThree } from './Data'
+import { SponsorSection } from '../../components'
+import { homeObjOne } from './Data'
 
 function Sponsors() {
   return (
     <>
+    <SponsorSection {...homeObjOne} />
     </>
-  );
+  )
 }
 
 export default Sponsors
