@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { Button } from '../../globalStyles';
+//import { Button } from '../../globalStyles';
 import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
+ // NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
-  NavItemBtn,
+ // NavItemBtn,
   NavLinks,
-  NavBtnLink
+ // NavBtnLink
 } from './Navbar.elements';
 
 function Navbar() {
@@ -32,7 +32,7 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
-  }, []);
+  }, []); 
 
   window.addEventListener('resize', showButton);
 

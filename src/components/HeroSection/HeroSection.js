@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaItalic } from 'react-icons/fa'
+//import { FaItalic } from 'react-icons/fa'
 import Video from '../../videos/gina-move.mp4'
 //import { Button } from '../ButtonElements'
 import { 
@@ -9,17 +9,17 @@ import {
     HeroContent,
     HeroH1,
     HeroP,
-    HeroBtnWrapper,
+  /*  HeroBtnWrapper,
     ArrowForward,
-    ArrowRight
+    ArrowRight */
  } from './HeroSection.elements'
 
 const HeroSection = () => {
-    const [hover, setHover] = useState(false)
+    /*const [hover, setHover] = useState(false)
 
     const onHover = () => {
         setHover(!hover)
-    }
+    }*/
 
     return (
         <HeroContainer id='home'>

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container } from '../../globalStyles';
+import React from 'react'
+//import { Link } from 'react-router-dom'
+import { Container } from '../../globalStyles'
 import {
   AboutSec,
   AboutRow,
@@ -14,7 +14,7 @@ import {
 } from './AboutSection.elements';
 
 function AboutSection({
-  primary,
+  //primary,
   lightBg,
   topLine,
   lightTopLine,

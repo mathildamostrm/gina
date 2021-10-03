@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Container, Button } from '../../globalStyles'
+//import { Link } from 'react-router-dom'
+import { Container/*, Button */ } from '../../globalStyles'
 import {
   SouthPoleSec,
   SouthPoleRow,
@@ -14,7 +14,7 @@ import {
 } from './SouthPoleSection.elements'
 
 function SouthPoleTextSection({
-  primary,
+  //primary,
   lightBg,
   topLineOne,
   topLineTwo,
@@ -28,7 +28,7 @@ function SouthPoleTextSection({
   alt,
   imgStart,
   start,
-  link
+  //link
 }) {
   return (
     <>

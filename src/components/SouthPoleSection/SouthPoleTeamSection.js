@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button } from '../../globalStyles'
+import { Container /*, Button */} from '../../globalStyles'
 import {
   SouthPoleSec,
   SouthPoleRow,
@@ -13,7 +13,7 @@ import {
 } from './SouthPoleSection.elements'
 
 function SouthPoleTeamSection({
-  primary,
+ // primary,
   lightBg,
   topLine,
   lightTopLine,

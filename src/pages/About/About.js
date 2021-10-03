@@ -7,7 +7,7 @@ function About() {
     <>
       <AboutSection {...homeObjOne} />
     </>
-  );
+  )
 }
 
 export default About
