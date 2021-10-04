@@ -33,10 +33,10 @@ function Footer() {
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>CONTACT</FooterLinkTitle>
-            <FooterLink to='/'>CONTACT</FooterLink>
-            <FooterLink to='/'>SUPPORT</FooterLink>
+            <FooterLink to='/contact'>CONTACT</FooterLink>
+            <FooterLink to='/media'>MEDIA</FooterLink>
             <FooterLink to='/'>DESTINATIONS</FooterLink>
-            <FooterLink to='/'>SPONSORSHIPS</FooterLink>
+            <FooterLink to='/sponsors'>SPONSORSHIPS</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>

@@ -6,26 +6,24 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'COMING EXPEDITION',
     headline: 'SOLO TO THE SOUTH POLE',
-    description:
-      'Unsupported solo crossing from Hercules Inlet to the South Pole with a goal to set a new women speed record.',
+    description: 'Unsupported solo crossing from Hercules Inlet to the South Pole with a goal to set a new women speed record.',
     buttonLabel: 'THE EXHIBITION',
     imgStart: '',
     img: require('../../images/svg-1.webp').default,
     alt: 'South Pole',
     start: '',
     link: '/southpole'
-  };
+  }
   
   export const homeObjTwo = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
+    primary: false,
+    lightBg: true,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'BLOG',
     headline: 'The page is under construction',
-    description:
-      "BLOG",
+    description: 'BLOG',
     buttonLabel: 'READ MORE',
     imgStart: '',
     img: require('../../images/svg-2.webp').default,
@@ -35,11 +33,11 @@ export const homeObjOne = {
   }
   
   export const homeObjThree = {
-    primary: false,
-    lightBg: true,
-    lightTopLine: false,
-    lightText: false,
-    lightTextDesc: false,
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'MY ADVENTURES',
     headline: 'Life is to short to do things that doesnspont make us happy',
     description: '',
@@ -52,15 +50,14 @@ export const homeObjOne = {
   }
 
   export const homeObjFour = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
+    primary: false,
+    lightBg: true,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'SPONSORS',
     headline: 'Some good text?',
-    description:
-      '',
+    description: '',
     buttonLabel: 'READ MORE',
     imgStart: 'start',
     img: require('../../images/svg-3.webp').default,

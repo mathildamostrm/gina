@@ -1,9 +1,9 @@
-import React from 'react';
-import { Button } from '../../globalStyles';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
-import { IconContext } from 'react-icons/lib';
+import React from 'react'
+/*import { Button } from '../../globalStyles'
+import { GiCrystalBars } from 'react-icons/gi'
+import { GiCutDiamond, GiRock } from 'react-icons/gi'
+import { GiFloatingCrystal } from 'react-icons/gi' */
+import { IconContext } from 'react-icons/lib'
 import {
   BlogTextSection,
   BlogWrapper,
@@ -11,7 +11,7 @@ import {
   BlogContainer,
   BlogCard,
   BlogCardInfo,
-  BlogCardIcon,
+  //BlogCardIcon,
   BlogCardPlan,
   BlogCardCost,
   BlogCardLength,

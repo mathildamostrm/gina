@@ -11,6 +11,7 @@ import Sponsors from './pages/Sponsors/Sponsors'
 import Blog from './pages/Blog/Blog'
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
+import Media from './pages/Media/Media'
 
 function App() {
   return (
@@ -27,10 +28,11 @@ function App() {
         <Route path='/about' component={About} />
        {/* <Route path='/sign-up' component={SignUp} /> */}
         <Route path='/contact' component={Contact} />
+        <Route path='/media' component={Media} />
       </Switch>
       <Footer />
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
