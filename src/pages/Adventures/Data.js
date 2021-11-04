@@ -19,10 +19,10 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'RUSSIA & SIBERIA',
     headline: 'LAKE BAIKAL TRAVERSE 2019',
-    description: 'In February 2019 I traversed Lake Baikal from the southernmost point of the lake, Kultuk and walked an distance of 692 kilometers to the northernmost point, Nizhneangarsk. It is a little village about 30 km north of Severbaikalsk where most people finnish their expedition. This expedition is by date the toughest I have ever done. The temperatures was freezing ( night temperatures as low as minus 40) , strong winds that knocked me over severels of times, ice cracks as wide as few meters with open water and maybe the toughest part LONELINESS. I walked most of the days between 50-60km a day without any breaks more than for a drink, eating was done by walking. For me this was my second ever expedition and without a lot of experience it was a real test. I loved Siberia. Lake Baikal is just a place that stands out and you have to experience it to understand what I am talking about. The ice is just incredible and the Lake is something special about. It is like magic.',
+    description: 'In February 2019  Gina become the first women to traversed Lake Baikal from the southernmost point of the lake, Kultuk to the northernmost point, Nizhneangarsk. An distance of 692 kilometers and 14,5 days. She faced temperatures down to minus 42, strong wind, ice cracks with open water and endless wilderness. She walked an distance of 50-60 km last week. Lake Baikal is the deepest and oldest freshwater lake in the world that containing 23% of the worlds fresh surface water. Lake Baikal is a magic place if you ask Gina, the ice just incredible.',
     buttonLabel: 'READ MORE',
     imgStart: '',
-    img: require('../../images/lake-baikal.webp').default,
+    img: require('../../images/lake-baikal.jpeg').default,
     alt: 'Lake Baikal'
   };
   
@@ -32,7 +32,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: 'NORWAY & SWEDEN',
     headline: 'NORDKAPP TO JÄCKVIK ON SKIS - 60 days solo on skis',
-    description: 'I want to celebrate & empowering women all over the world “ for centuries men have been celebrated as adventurers and conquerors and I think it’s about time young girls had someone to inspire them that not only are they as good as men but that they to can achieve anything they set their minds to and we can deal with loneliness, cold and extremely difficult conditions better than any man. We are as strong as we have to be.',
+    description: 'In 2018 Gina skied solo from North Cape to Jäckvik in Sweden. She crossed Finnmarksvidda in temperatures reaching down to minus 37 and just a week before she started from North Cape she had never skied, slept in a tent winter time, navigated or been further north than Stockholm in Sweden. She came from eight year in Australia and had a dream to see more of her home countries and wanted to travel in a different way.',
     buttonLabel: 'READ MORE',
     imgStart: 'start',
     img: require('../../images/svg-1.webp').default,
@@ -45,7 +45,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'AUSTRALIA',
     headline: 'SYDNEY TO CAIRNS ON BICYCLE',
-    description: 'In May 2016  I cycled 2700 km from Sydney to Cairns.',
+    description: 'After lived six year in Australia Gina wanted to travel the east coast and instead of driving or going by bus Gina and her ex boyfriend bought two bikes and spent 60 days on bicycles from Sydney to Cairns an distance of 2700 km.',
     buttonLabel: 'READ MORE',
     imgStart: 'start',
     img: require('../../images/australia-bicycle.webp').default,

@@ -29,6 +29,7 @@ import {
 function Footer() {
   return (
     <FooterContainer>
+      
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
@@ -48,6 +49,7 @@ function Footer() {
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
+
       <SocialMedia>
         <SocialMediaWrap>
           <WebsiteRights>GINA JOHANSEN © 2021</WebsiteRights>
@@ -70,6 +72,7 @@ function Footer() {
           </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>
+
     </FooterContainer>
   )
 }

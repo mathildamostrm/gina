@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 
-export const SouthPoleSec = styled.div`
+export const SponsorSec = styled.div`
   color: #fff;
   padding: 160px 0;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#101522')};
+  background: ${({ lightBg }) => (lightBg ? 'black' : '#fff')};
 `
 
-export const SouthPoleRow = styled.div`
+export const SponsorRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@ export const SouthPoleRow = styled.div`
   flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
 `
 
-export const SouthPoleColumn = styled.div`
+export const SponsorColumn = styled.div`
   margin-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
@@ -45,7 +45,7 @@ export const ImgWrapper = styled.div`
 `
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+  color: ${({ lightTopLine }) => (lightTopLine ? '#fff' : 'black')};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -59,7 +59,7 @@ export const Img = styled.img`
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  max-height: 800px;
+  max-height: 500px;
 `
 
 export const Heading = styled.h1`
@@ -67,13 +67,13 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+  color: ${({ lightText }) => (lightText ? '#fff' : 'black')};
 `
 
 export const Subtitle = styled.p`
-  max-width: 940px;
+  max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
-`
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#fff' : 'black')};
+  `

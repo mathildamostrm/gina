@@ -1,6 +1,6 @@
 import React from 'react'
 //import { Link } from 'react-router-dom'
-import { Container } from '../../globalStyles'
+import { Container } from '../../global-styles'
 import {
   AboutSec,
   AboutRow,
@@ -11,7 +11,7 @@ import {
   Subtitle,
   ImgWrapper,
   Img
-} from './AboutSection.elements';
+} from './about-section.elements';
 
 function AboutSection({
   //primary,

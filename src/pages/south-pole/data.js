@@ -13,7 +13,7 @@ export const homeObjOne = {
     descriptionThree: 'The curiosity to explore new places and experience extreme nature is a big strive for Gina, but it is also about stepping out of the comfortzone and be a bit uncomfortable. Curiosity to be in your own company for over a month without seeing other human being and take a break from the "everyday" life, simple things that we take for granted in our everyday life will suddenly become luxury for Gina and she will dream about comfort and secure lifestyle that we are used to in our everyday life on her expedition. Gina will write more about this and her thoughts around it.',
     buttonLabel: 'THE EXHIBITION',
     imgStart: '',
-    img: require('../../images/svg-1.webp').default,
+    img: require('../../images/ColourLogo_WhiteBackground.jpg').default,
     alt: 'South Pole',
     start: ''
   }
@@ -46,7 +46,7 @@ export const homeObjOne = {
     description: 'A solo expedition to the South Pole from Hercules Inlet cost around 100 000 US dollar ( 900 000 nok). Gina will need all support she possible can get to make this expedition real. Everybody who support her will be part of the expedition and together we can inspire and motivate thousands of children, young people and girls to a more active lifestyle, follow their dreams and realise they’re capable of more than they ever dreamed of.',
     buttonLabel: 'SUPPORT ME',
     imgStart: 'start',
-    img: require('../../images/south-pole-map.webp').default,
+    img: require('../../images/ColourWhiteBackground_NoTitle (1).jpg').default,
     alt: 'Sponsor South Pole',
     start: 'true',
     link: '/'

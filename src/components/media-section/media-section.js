@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '../../globalStyles'
+import { Button } from '../../global-styles'
 import { IconContext } from 'react-icons/lib'
 import {
   MediaTextSection,
@@ -16,30 +16,17 @@ import {
 } from './MediaSection.elements'
 
 function MediaSection ({
-    primary,
-    lightBg,
-    topLine,
-    lightTopLine,
-    lightText,
-    lightTextDesc,
-    headline,
-    description,
-    buttonLabel,
-    img,
-    alt,
-    imgStart,
-    start,
-    link
+
  }) {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
-      <MediaTextSection lightBg={lightBg}>
+      <MediaTextSection>
         <MediaWrapper>
           <MediaHeading>SOME GOOD HEADLINE</MediaHeading>
           <MediaContainer>
             <MediaCard to='/'>
               <MediaCardInfo>
-                <MediaCardPlan></MediaCardPlan>
+                <MediaCardPlan>PODCAST</MediaCardPlan>
                 <MediaCardCost></MediaCardCost>
                 <MediaCardLength></MediaCardLength>
                 <MediaCardFeatures>
@@ -47,12 +34,12 @@ function MediaSection ({
                   <MediaCardFeature></MediaCardFeature>
                   <MediaCardFeature></MediaCardFeature>
                 </MediaCardFeatures>
-              <Button primary></Button> 
+              <Button primary>LISTEN NOW</Button> 
               </MediaCardInfo>
             </MediaCard>
             <MediaCard to='/'>
               <MediaCardInfo>
-                <MediaCardPlan></MediaCardPlan>
+                <MediaCardPlan>ARTICLES</MediaCardPlan>
                 <MediaCardCost></MediaCardCost>
                 <MediaCardLength></MediaCardLength>
                 <MediaCardFeatures>
@@ -60,12 +47,12 @@ function MediaSection ({
                   <MediaCardFeature></MediaCardFeature>
                   <MediaCardFeature></MediaCardFeature>
                 </MediaCardFeatures>
-               <Button primary></Button> 
+               <Button primary>READ NOW</Button> 
               </MediaCardInfo>
             </MediaCard>
             <MediaCard to='/'>
               <MediaCardInfo>
-                <MediaCardPlan></MediaCardPlan>
+                <MediaCardPlan>RADIO</MediaCardPlan>
                 <MediaCardCost></MediaCardCost>
                 <MediaCardLength></MediaCardLength>
                 <MediaCardFeatures>
@@ -73,7 +60,7 @@ function MediaSection ({
                   <MediaCardFeature></MediaCardFeature>
                   <MediaCardFeature></MediaCardFeature>
                 </MediaCardFeatures>
-              <Button primary></Button> 
+              <Button primary>LISTEN NOW</Button> 
               </MediaCardInfo>
             </MediaCard>
           </MediaContainer>

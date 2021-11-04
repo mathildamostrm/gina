@@ -1,19 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Container, Button } from '../../globalStyles'
+import { Container, Button } from '../../global-styles'
 import {
-  SponsorSec,
-  SponsorRow,
-  SponsorColumn,
+  AdventureSec,
+  AdventureRow,
+  AdventureColumn,
   TextWrapper,
   TopLine,
   Heading,
   Subtitle,
   ImgWrapper,
   Img
-} from './SponsorSection.elements'
+} from './adventure-section.elements'
 
-function SponsorSection({
+function AdventureSection({
   primary,
   lightBg,
   topLine,
@@ -31,10 +31,10 @@ function SponsorSection({
 }) {
   return (
     <>
-      <SponsorSec lightBg={lightBg}>
+      <AdventureSec lightBg={lightBg}>
         <Container>
-          <SponsorRow imgStart={imgStart}>
-            <SponsorColumn>
+          <AdventureRow imgStart={imgStart}>
+            <AdventureColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -45,17 +45,17 @@ function SponsorSection({
                   </Button>
                 </Link>
               </TextWrapper>
-            </SponsorColumn>
-            <SponsorColumn>
+            </AdventureColumn>
+            <AdventureColumn>
               <ImgWrapper start={start}>
                 <Img src={img} alt={alt} />
               </ImgWrapper>
-            </SponsorColumn>
-          </SponsorRow>
+            </AdventureColumn>
+          </AdventureRow>
         </Container>
-      </SponsorSec>
+      </AdventureSec>
     </>
   )
 }
 
-export default SponsorSection
+export default AdventureSection

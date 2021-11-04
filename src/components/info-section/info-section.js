@@ -1,19 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Container, Button } from '../../globalStyles'
+import { Container, Button } from '../../global-styles'
 import {
-  SouthPoleSec,
-  SouthPoleRow,
-  SouthPoleColumn,
+  InfoSec,
+  InfoRow,
+  InfoColumn,
   TextWrapper,
   TopLine,
   Heading,
   Subtitle,
   ImgWrapper,
   Img
-} from './SouthPoleSection.elements'
+} from './InfoSection.elements'
 
-function SouthPoleSponsorSection({
+function InfoSection({
   primary,
   lightBg,
   topLine,
@@ -31,10 +31,10 @@ function SouthPoleSponsorSection({
 }) {
   return (
     <>
-      <SouthPoleSec lightBg={lightBg}>
+      <InfoSec lightBg={lightBg}>
         <Container>
-          <SouthPoleRow imgStart={imgStart}>
-            <SouthPoleColumn>
+          <InfoRow imgStart={imgStart}>
+            <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
@@ -45,17 +45,17 @@ function SouthPoleSponsorSection({
                   </Button>
                 </Link>
               </TextWrapper>
-            </SouthPoleColumn>
-            <SouthPoleColumn>
+            </InfoColumn>
+            <InfoColumn>
               <ImgWrapper start={start}>
                 <Img src={img} alt={alt} />
               </ImgWrapper>
-            </SouthPoleColumn>
-          </SouthPoleRow>
+            </InfoColumn>
+          </InfoRow>
         </Container>
-      </SouthPoleSec>
+      </InfoSec>
     </>
   )
 }
 
-export default SouthPoleSponsorSection
+export default InfoSection

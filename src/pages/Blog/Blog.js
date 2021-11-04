@@ -1,6 +1,6 @@
 import React from 'react'
 import { BlogSection } from '../../components'
-import { homeObjOne } from './Data'
+import { homeObjOne } from './data'
 
 function Blog() {
   return (

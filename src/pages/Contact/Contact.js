@@ -1,6 +1,6 @@
 import React from 'react'
-import ContactSection from '../../components/ContactSection/ContactSection'
-import { homeObjOne } from '../Contact/Data'
+import ContactSection from '../../components/contact-section/contact-section'
+import { homeObjOne } from './Data'
 
 function Contact() {
     return (

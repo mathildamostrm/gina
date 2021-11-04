@@ -1,6 +1,5 @@
 import React from 'react'
-//import { Link } from 'react-router-dom'
-import { Container/*, Button */ } from '../../globalStyles'
+import { Container /*, Button */} from '../../global-styles'
 import {
   SouthPoleSec,
   SouthPoleRow,
@@ -11,24 +10,21 @@ import {
   Subtitle,
   ImgWrapper,
   Img
-} from './SouthPoleSection.elements'
+} from './southpole-section.elements'
 
-function SouthPoleTextSection({
-  //primary,
+function SouthPoleTeamSection({
+ // primary,
   lightBg,
-  topLineOne,
-  topLineTwo,
+  topLine,
   lightTopLine,
   lightText,
   lightTextDesc,
   headline,
-  descriptionOne,
-  descriptionTwo,
+  description,
   img,
   alt,
   imgStart,
-  start,
-  //link
+  start
 }) {
   return (
     <>
@@ -37,11 +33,9 @@ function SouthPoleTextSection({
           <SouthPoleRow imgStart={imgStart}>
             <SouthPoleColumn>
               <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLineOne}</TopLine>
+                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{descriptionOne}</Subtitle>
-                <TopLine lightTopLine={lightTopLine}>{topLineTwo}</TopLine>
-                <Subtitle lightTextDesc={lightTextDesc}>{descriptionTwo}</Subtitle>
+                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
               </TextWrapper>
             </SouthPoleColumn>
             <SouthPoleColumn>
@@ -56,4 +50,4 @@ function SouthPoleTextSection({
   )
 }
 
-export default SouthPoleTextSection
+export default SouthPoleTeamSection

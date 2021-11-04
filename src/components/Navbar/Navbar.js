@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import { IconContext } from 'react-icons/lib';
-//import { Button } from '../../globalStyles';
+import React, { useState, useEffect } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import { IconContext } from 'react-icons/lib'
+//import { Button } from '../../globalStyles'
 import {
   Nav,
   NavbarContainer,
@@ -13,28 +13,28 @@ import {
  // NavItemBtn,
   NavLinks,
  // NavBtnLink
-} from './Navbar.elements';
+} from './navbar.elements'
 
 function Navbar() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  const [click, setClick] = useState(false)
+  const [button, setButton] = useState(true)
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click)
+  const closeMobileMenu = () => setClick(false)
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
-      setButton(false);
+      setButton(false)
     } else {
-      setButton(true);
+      setButton(true)
     }
   };
 
   useEffect(() => {
     showButton();
-  }, []); 
+  }, [])
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener('resize', showButton)
 
   return (
     <>
@@ -91,7 +91,7 @@ function Navbar() {
         </Nav>
       </IconContext.Provider>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
