@@ -17,7 +17,7 @@ import {
   BlogCardLength,
   BlogCardFeatures,
   BlogCardFeature
-} from './BlogSection.elements'
+} from './blog-section.elements'
 
 const BlogSection = () => {
   return (

@@ -8,7 +8,7 @@ import {
     TopLine,
     Heading,
     Subtitle
-} from './ContactSection.elements'
+} from './contact-section.elements'
 
 function ContactSection({
     lightBg,

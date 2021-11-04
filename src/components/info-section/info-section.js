@@ -11,7 +11,7 @@ import {
   Subtitle,
   ImgWrapper,
   Img
-} from './InfoSection.elements'
+} from './info-section.elements'
 
 function InfoSection({
   primary,

@@ -6,7 +6,7 @@ export { default as InfoSection } from './info-section/info-section'
 
 export { default as Pricing } from './blog-section/blog-section'
 
-export { default as HeroSection } from './hero-section/hero-section'
+export { default as HeroSection } from './home-section/home-section'
 
 export { default as AboutSection } from './about-section/about-section'
 

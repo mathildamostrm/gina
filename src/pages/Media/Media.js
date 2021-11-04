@@ -1,5 +1,5 @@
 import React from 'react'
-import { homeObjOne } from './Data'
+import { homeObjOne } from './data'
 import { MediaSection } from '../../components'
 
 function Media() {

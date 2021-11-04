@@ -1,6 +1,6 @@
 import React from 'react'
 import { AboutSection } from '../../components'
-import { homeObjOne } from './Data'
+import { homeObjOne } from './data'
 
 function About() {
   return (

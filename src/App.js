@@ -7,11 +7,11 @@ import Adventures from './pages/adventures/adventures'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import ScrollToTop from './components/scroll-to-top'
 import { Navbar, Footer } from './components'
-import Sponsors from './pages/sponsors/Sponsors'
+import Sponsors from './pages/sponsors/sponsors'
 import Blog from './pages/blog/blog'
-import About from './pages/about/About'
-import Contact from './pages/contact/Contact'
-import Media from './pages/media/Media'
+import About from './pages/about/about'
+import Contact from './pages/contact/contact'
+import Media from './pages/media/media'
 
 function App() {
   return (

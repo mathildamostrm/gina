@@ -13,7 +13,7 @@ import {
   MediaCardLength,
   MediaCardFeatures,
   MediaCardFeature
-} from './MediaSection.elements'
+} from './media-section.elements'
 
 function MediaSection ({
 

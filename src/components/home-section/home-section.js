@@ -12,7 +12,7 @@ import {
   /*  HeroBtnWrapper,
     ArrowForward,
     ArrowRight */
- } from './hero-section.elements'
+ } from './home-section.elements'
 
 const HeroSection = () => {
     /*const [hover, setHover] = useState(false)

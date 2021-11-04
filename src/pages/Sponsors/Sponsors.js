@@ -1,6 +1,6 @@
 import React from 'react'
 import { SponsorSection } from '../../components'
-import { homeObjOne } from './Data'
+import { homeObjOne } from './data'
 
 function Sponsors() {
   return (
