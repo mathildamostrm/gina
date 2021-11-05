@@ -1,11 +1,13 @@
 import React from 'react'
 import { SponsorSection } from '../../components'
-import { homeObjOne } from './data'
+import { BlogSection } from '../../components'
+import { homeObjOne, homeObjTwo } from './data'
 
 function Sponsors() {
   return (
     <>
     <SponsorSection {...homeObjOne} />
+    <BlogSection {...homeObjTwo} />
     </>
   )
 }

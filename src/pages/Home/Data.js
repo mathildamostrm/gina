@@ -39,7 +39,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'MY ADVENTURES',
-    headline: 'Life is to short to do things that doesnspont make us happy',
+    headline: 'Life is to short to do things that dont make us happy',
     description: '',
     buttonLabel: 'READ MORE',
     imgStart: 'start',

@@ -49,7 +49,7 @@ export const homeObjOne = {
     img: require('../../images/ColourWhiteBackground_NoTitle (1).jpg').default,
     alt: 'Sponsor South Pole',
     start: 'true',
-    link: '/'
+    link: '/sponsors'
   }
 
   export const homeObjFour = {
