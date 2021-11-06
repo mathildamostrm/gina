@@ -14,6 +14,7 @@ export const homeObjOne = {
     descriptionSix: 'Thank you',
     imgStart: '',
     img: require('../../images/profile.jpg').default,
+    img2: require('../../images/svg-3.webp').default,
     alt: 'About'
   }
   

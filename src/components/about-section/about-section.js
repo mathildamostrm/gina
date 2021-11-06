@@ -28,6 +28,7 @@ function AboutSection({
   descriptionFive,
   descriptionSix,
   img,
+  img2,
   alt,
   imgStart,
   start
@@ -43,15 +44,22 @@ function AboutSection({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{descriptionOne}</Subtitle>
                 <Subtitle lightTextDesc={lightTextDesc}>{descriptionTwo}</Subtitle>
-                <Subtitle lightTextDesc={lightTextDesc}>{descriptionThree}</Subtitle>
-                <Subtitle lightTextDesc={lightTextDesc}>{descriptionFour}</Subtitle>
-                <Subtitle lightTextDesc={lightTextDesc}>{descriptionFive}</Subtitle>
-                <Subtitle lightTextDesc={lightTextDesc}>{descriptionSix}</Subtitle>
               </TextWrapper>
             </AboutColumn>
             <AboutColumn>
               <ImgWrapper start={start}>
                 <Img src={img} alt={alt} />
+              </ImgWrapper>
+            </AboutColumn>
+            <AboutColumn>
+                <Subtitle lightTextDesc={lightTextDesc}>{descriptionThree}</Subtitle>
+                <Subtitle lightTextDesc={lightTextDesc}>{descriptionFour}</Subtitle>
+                <Subtitle lightTextDesc={lightTextDesc}>{descriptionFive}</Subtitle>
+                <Subtitle lightTextDesc={lightTextDesc}>{descriptionSix}</Subtitle>
+            </AboutColumn>
+            <AboutColumn>
+              <ImgWrapper start={start}>
+                <Img src={img2} alt={alt} />
               </ImgWrapper>
             </AboutColumn>
           </AboutRow>

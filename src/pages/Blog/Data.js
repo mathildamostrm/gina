@@ -10,4 +10,4 @@ export const homeObjOne = {
   img: require('../../images/ColourTransparent_NoTitle.png.jpg').default,
   alt: 'South Pole',
   start: ''
-}
+} 
