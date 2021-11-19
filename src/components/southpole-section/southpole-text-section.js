@@ -18,12 +18,16 @@ function SouthPoleTextSection({
   lightBg,
   topLineOne,
   topLineTwo,
+  topLineThree,
+  topLineFour,
   lightTopLine,
   lightText,
   lightTextDesc,
   headline,
   descriptionOne,
   descriptionTwo,
+  descriptionThree,
+  descriptionFour,
   img,
   alt,
   imgStart,
@@ -45,9 +49,10 @@ function SouthPoleTextSection({
               </TextWrapper>
             </SouthPoleColumn>
             <SouthPoleColumn>
-              <ImgWrapper start={start}>
-                <Img src={img} alt={alt} />
-              </ImgWrapper>
+            <TopLine lightTopLine={lightTopLine}>{topLineThree}</TopLine>
+                <Subtitle lightTextDesc={lightTextDesc}>{descriptionThree}</Subtitle>
+                <TopLine lightTopLine={lightTopLine}>{topLineFour}</TopLine>
+                <Subtitle lightTextDesc={lightTextDesc}>{descriptionFour}</Subtitle>
             </SouthPoleColumn>
           </SouthPoleRow>
         </Container>

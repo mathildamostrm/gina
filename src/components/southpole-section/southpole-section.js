@@ -43,10 +43,6 @@ function SouthPoleSection({
                 <TopLine lightTopLine={lightTopLine}>{topLineOne}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{descriptionOne}</Subtitle>
-                <TopLine lightTopLine={lightTopLine}>{topLineTwo}</TopLine>
-                <Subtitle lightTextDesc={lightTextDesc}>{descriptionTwo}</Subtitle>
-                <TopLine lightTopLine={lightTopLine}>{topLineThree}</TopLine>
-                <Subtitle lightTextDesc={lightTextDesc}>{descriptionThree}</Subtitle>
               </TextWrapper>
             </SouthPoleColumn>
             <SouthPoleColumn>

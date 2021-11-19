@@ -21,5 +21,6 @@ export { default as AdventureSection } from './adventure-section/adventure-secti
 export { default as BlogSection } from './blog-section/blog-section'
 
 export { default as SponsorSection } from './sponsor-section/sponsor-section'
+export { default as ContactForm } from './contact-form/contact-form'
 
 export { default as MediaSection } from './media-section/media-section'

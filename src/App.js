@@ -12,6 +12,7 @@ import Blog from './pages/blog/blog'
 import About from './pages/about/about'
 import Contact from './pages/contact/contact'
 import Media from './pages/media/media'
+import SponsorKilometer from './pages/sponsor-a-km/sponsor-a-km'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
        {/* <Route path='/sign-up' component={SignUp} /> */}
         <Route path='/contact' component={Contact} />
         <Route path='/media' component={Media} />
+        <Route path='/sponsor-a-km' component={SponsorKilometer} />
       </Switch>
       <Footer />
     </Router>
