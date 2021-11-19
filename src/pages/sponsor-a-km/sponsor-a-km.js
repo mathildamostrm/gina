@@ -1,11 +1,13 @@
 import React from 'react'
-import { ContactForm } from '../../components'
+import { Form, TextSection } from '../../components'
+import { homeObjOne } from './data'
 
 
 function SponsorKilometer() {
     return(
         <>
-        <ContactForm />
+        <TextSection {...homeObjOne}/>
+        <Form />
         </>
     ) 
 }
