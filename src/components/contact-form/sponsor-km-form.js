@@ -84,11 +84,13 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label className='form-label'>TERMS & CONDITIONS</label>
+      <label className='form-label'>
+       <td onClick={()=> window.open('/terms-and-conditions', '_blank')}><u>ACCEPT TERMS & CONDITIONS</u></td>
        <input 
         type='checkbox'
-        className='form-input' 
+        className='check-box'
         onChange={handleChange} />
+      </label>
     </div>
 
      <button className='form-input-btn' type='submit'>SEND</button>

@@ -13,6 +13,7 @@ import About from './pages/about/about'
 import Contact from './pages/contact/contact'
 import Media from './pages/media/media'
 import SponsorKilometer from './pages/sponsor-a-km/sponsor-a-km'
+import TermsAndCondition from './pages/sponsor-a-km/terms-conditions'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/contact' component={Contact} />
         <Route path='/media' component={Media} />
         <Route path='/sponsor-a-km' component={SponsorKilometer} />
+        <Route path='/terms-and-conditions' component={TermsAndCondition} />
       </Switch>
       <Footer />
     </Router>

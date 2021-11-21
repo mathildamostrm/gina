@@ -28,15 +28,17 @@ const handleChange = e => {
      e.preventDefault()
      setErrors(validate(values))
      setAgree(!agree)
+     setIsSubmitting(true)
 
-     emailjs.sendForm('gina', 'template_gina', form.current, 'user_vToDYJs5h0fUT5PHPf5sd')
-     .then((result) => {
-         console.log(result.text)
-     }, (error) => {
-         console.log(error.text)
-     })
+     if(isSubmitting && setAgree) {
+        emailjs.sendForm('gina', 'template_gina', form.current, 'user_vToDYJs5h0fUT5PHPf5sd')
+        .then((result) => {
+            console.log(result.text)
+        }, (error) => {
+            console.log(error.text)
+        })
+     }
 
-   setIsSubmitting(true)
    e.target.reset()
  }
 
