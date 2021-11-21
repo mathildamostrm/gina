@@ -11,9 +11,10 @@ function SponsorKmForm ({ submitForm }) {
     <form ref={form} onSubmit={handleSubmit} className='form'>
     <h1>CONTACT ME</h1>
     <div className='form-inputs'>
-      <label hmtlFor='name' className='form-label'>Name</label>
-      <input 
+      <label hmtlfor='name' className='form-label'>NAME</label>
+       <input 
         type='text'
+        className='form-input'
         id='name'
         placeholder='Enter your name'
         name='name'
@@ -23,9 +24,10 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlFor='company' className='form-label'>Company</label>
-      <input 
+      <label hmtlfor='company' className='form-label'>COPMANY</label>
+       <input 
         id='company'
+        className='form-input'
         type='text'
         placeholder='Enter your company name'
         name='company'
@@ -35,9 +37,10 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlFor='email' className='form-label'>Email</label>
-      <input 
-        type='email' 
+      <label hmtlfor='email' className='form-label'>EMAIL</label>
+       <input 
+        type='email'
+        className='form-input' 
         id='email'
         placeholder='Enter your email'
         name='email'
@@ -47,9 +50,10 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlFor='link' className='form-label'>Link</label>
-      <input 
+      <label hmtlfor='link' className='form-label'>LINK</label>
+       <input 
         type='text'
+        className='form-input'
         id='link'
         placeholder='Link to your website'
         name='link'
@@ -59,9 +63,10 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlFor='km' className='form-label'>Kilometer</label>
-      <input 
-        type='text' 
+      <label hmtlfor='km' className='form-label'>KILOMETER</label>
+       <input 
+        type='text'
+        className='form-input' 
         id='km'
         placeholder='Enter the kilometer you want to sponsor'
         name='km'
@@ -71,16 +76,18 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlFor='message' className='form-label'>Message/Comment</label>
-      <textarea 
+      <label hmtlfor='message' className='form-label'>MESSAGE</label>
+       <textarea 
         id='message'
+        className='form-input'
         placeholder='Want to add a message/comment?'
         name='message'
         value={values.message}
         onChange={handleChange} />
     </div>
-    <button className='form-input-btn' type='submit'>SEND</button>
-    </form>
+
+     <button className='form-input-btn' type='submit'>SEND</button>
+     </form>
     </div>
   )
 }

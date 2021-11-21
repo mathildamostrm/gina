@@ -17,22 +17,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
-  .close-btn {
-    position: absolute;
-    top: 2%;
-    right: 3%;
-    font-size: 1.5rem;
-    z-index: 1;
-    color: #fff;
-    cursor: pointer;
-  }
-  
+ 
   .form-content-left {
     background: linear-gradient(
       90deg,
-      rgb(39, 176, 255) 0%,
-      rgb(0, 232, 236) 100%
+      rgb(89, 92, 94) 0%,
+      rgb(63, 64, 65) 100%
     );
     border-radius: 10px 0 0 10px;
     position: relative;
@@ -130,8 +120,8 @@
     border-radius: 2px;
     background: linear-gradient(
       90deg,
-      rgb(39, 176, 255) 0%,
-      rgb(0, 232, 236) 100%
+      rgb(89, 92, 94) 0%,
+      rgb(63, 64, 65) 100%
     );
     outline: none;
     border: none;
@@ -143,8 +133,8 @@
     cursor: pointer;
     background: linear-gradient(
       90deg,
-      rgb(39, 143, 255) 0%,
-      rgb(12, 99, 250) 100%
+      rgb(89, 92, 94) 0%,
+      rgb(63, 64, 65) 100%
     );
     transition: all 0.4s ease-out;
   }
@@ -159,6 +149,6 @@
   
   .form-input-login a {
     text-decoration: none;
-    color: #27cdff;
+    color: #5e6364;
     font-weight: 600;
   }

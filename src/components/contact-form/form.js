@@ -13,9 +13,8 @@ const Form = () => {
     return (
         <>
         <div className='form-container'>
-            <span className='close-btn'>x</span>
             <div className='form-content-left'>
-                <img src='' alt='form-img'></img>
+                <img className='form-img' src={require('../../images/ColourWhiteBackground_NoTitle (1).jpg').default} alt='form-img'></img>
             </div>
         {!isSubmitted ? (
         <SponsorKmForm submitForm={submitForm} />
