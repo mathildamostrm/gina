@@ -8,10 +8,11 @@ const useForm = (callback, validate) => {
         email: '',
         link: '',
         km: '',
-        message: ''
+        message: '',
     })
 const [errors, setErrors] = useState({})
 const [isSubmitting, setIsSubmitting] = useState(false)
+const [agree, setAgree] = useState(false)
 
 const handleChange = e => {
     const { name, value } = e.target
@@ -26,6 +27,7 @@ const handleChange = e => {
  const handleSubmit = e => {
      e.preventDefault()
      setErrors(validate(values))
+     setAgree(!agree)
 
      emailjs.sendForm('gina', 'template_gina', form.current, 'user_vToDYJs5h0fUT5PHPf5sd')
      .then((result) => {

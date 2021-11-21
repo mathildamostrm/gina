@@ -4,18 +4,20 @@ import validate from './validate-info'
 import './form.css'
 
 function SponsorKmForm ({ submitForm }) {
-  const { handleChange, values, handleSubmit, form, errors } = useForm(validate, submitForm)
+  const { handleChange, values, handleSubmit, form, errors } = useForm(
+    submitForm,
+    validate
+  )
 
   return (
     <div className='form-content-right'>
     <form ref={form} onSubmit={handleSubmit} className='form'>
     <h1>CONTACT ME</h1>
     <div className='form-inputs'>
-      <label hmtlfor='name' className='form-label'>NAME</label>
+      <label className='form-label'>NAME</label>
        <input 
         type='text'
         className='form-input'
-        id='name'
         placeholder='Enter your name'
         name='name'
         value={values.name}
@@ -24,9 +26,8 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlfor='company' className='form-label'>COPMANY</label>
+      <label className='form-label'>COPMANY</label>
        <input 
-        id='company'
         className='form-input'
         type='text'
         placeholder='Enter your company name'
@@ -37,11 +38,10 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlfor='email' className='form-label'>EMAIL</label>
+      <label className='form-label'>EMAIL</label>
        <input 
         type='email'
         className='form-input' 
-        id='email'
         placeholder='Enter your email'
         name='email'
         value={values.email}
@@ -50,11 +50,10 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlfor='link' className='form-label'>LINK</label>
+      <label className='form-label'>LINK</label>
        <input 
         type='text'
         className='form-input'
-        id='link'
         placeholder='Link to your website'
         name='link'
         value={values.link} 
@@ -63,12 +62,11 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlfor='km' className='form-label'>KILOMETER</label>
+      <label className='form-label'>KILOMETER</label>
        <input 
         type='text'
         className='form-input' 
-        id='km'
-        placeholder='Enter the kilometer you want to sponsor'
+        placeholder='Enter the kilometer you wish to sponsor'
         name='km'
         value={values.km}
         onChange={handleChange} />
@@ -76,13 +74,20 @@ function SponsorKmForm ({ submitForm }) {
     </div>
 
     <div className='form-inputs'>
-      <label hmtlfor='message' className='form-label'>MESSAGE</label>
+      <label className='form-label'>Do you have a question or want to leave a comment?</label>
        <textarea 
-        id='message'
         className='form-input'
-        placeholder='Want to add a message/comment?'
+        placeholder='Write here'
         name='message'
         value={values.message}
+        onChange={handleChange} />
+    </div>
+
+    <div className='form-inputs'>
+      <label className='form-label'>TERMS & CONDITIONS</label>
+       <input 
+        type='checkbox'
+        className='form-input' 
         onChange={handleChange} />
     </div>
 
