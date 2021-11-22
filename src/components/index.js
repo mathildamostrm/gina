@@ -28,3 +28,5 @@ export { default as MediaSection } from './media-section/media-section'
 export { default as TextSection } from './text-section/text-section'
 
 export { default as TermsSection } from './terms-conditions/terms-conditions'
+
+export { default as PingvinCards } from './pingvins/pingvin-card'

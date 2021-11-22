@@ -20,6 +20,7 @@ const Payment = () => {
             <img src={require('../../images/vipps-qr.png').default} alt='form-img'></img>
          </div>
         </div>
+        <h1 className='text'>I can’t do this without you. Be part of my journey and help me inspire the next generation.</h1>
         </>
     )
 }

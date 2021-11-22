@@ -9,7 +9,7 @@ export const homeObjOne = {
     description: 'Unsupported solo crossing from Hercules Inlet to the South Pole with a goal to set a new women speed record.',
     buttonLabel: 'THE EXHIBITION',
     imgStart: '',
-    img: require('../../images/logo-white.jpg').default,
+    img: require('../../images/logo-black.jpg').default,
     alt: 'South Pole',
     start: '',
     link: '/southpole'
