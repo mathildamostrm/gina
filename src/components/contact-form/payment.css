@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .container {
+    margin: 100px auto;
+    position: relative;
+    border-radius: 10px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width: 991px) {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+
+  .paypal {
+    border-radius: 5px 0 0 5px;
+    position: center;
+    text-align: center;
+  }
+
+  .paypal-form {
+    display: inline-block; 
+    text-align: center;
+    position: center;
+    padding-left: 40px;
+    padding-bottom: 30px;
+  }
+
+  .vipps {
+    border-radius: 5px 0 0 5px;
+    position: center;
+    text-align: center;
+  }
+
+  .vipps-logo {
+      padding-bottom: 30px;
+  }
