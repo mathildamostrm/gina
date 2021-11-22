@@ -9,7 +9,7 @@ export const homeObjOne = {
     description: '',
     buttonLabel: 'LISTEN NOW',
     imgStart: '',
-    img: require('../../images/svg-1.webp').default,
+    img: require('../../images/logo-white.jpg').default,
     alt: 'South Pole',
     start: '',
     link: '/southpole'
@@ -25,7 +25,7 @@ export const homeObjOne = {
     description: '',
     buttonLabel: 'READ NOW',
     imgStart: '',
-    img: require('../../images/svg-1.webp').default,
+    img: require('../../images/logo-white.jpg').default,
     alt: 'Vault'
   }
 
@@ -38,6 +38,6 @@ export const homeObjOne = {
     description: '',
     buttonLabel: 'LISTEN NOW',
     imgStart: 'start',
-    img: require('../../images/svg-1.webp').default,
+    img: require('../../images/logo-white.jpg').default,
     alt: 'Vault'
   }

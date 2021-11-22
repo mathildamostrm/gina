@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: '6th of May is the start day of our traverse of Norway. We will start at the southernmost point Lindesnes and walk by foot all the way to North Cape the northernmost point of Norway.  34 km north of our home town Honningsvåg. It is an distance around 3000 km and we are planning to take about 3,5 month, about 30 km a day. We will mainly walk through the mountains and nature and avoid the roads as much as it is possible. On this page we will share the route, equipment and our partners who make it possible to take on this journey. It will also come up a blog post once a week here on my website and on my Facebook page and Instagram we will share photos daily if we have phone signal. ',
     buttonLabel: 'READ MORE',
     imgStart: '',
-    img: require('../../images/svg-1.webp').default,
+    img: require('../../images/logo-white.jpg').default,
     alt: 'Norge på langs 2019'
   };
   
@@ -35,7 +35,7 @@ export const homeObjOne = {
     description: 'In 2018 Gina skied solo from North Cape to Jäckvik in Sweden. She crossed Finnmarksvidda in temperatures reaching down to minus 37 and just a week before she started from North Cape she had never skied, slept in a tent winter time, navigated or been further north than Stockholm in Sweden. She came from eight year in Australia and had a dream to see more of her home countries and wanted to travel in a different way.',
     buttonLabel: 'READ MORE',
     imgStart: 'start',
-    img: require('../../images/svg-1.webp').default,
+    img: require('../../images/logo-white.jpg').default,
     alt: 'Vault'
   };
   

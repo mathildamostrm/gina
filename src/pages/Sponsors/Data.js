@@ -21,7 +21,7 @@ export const homeObjOne = {
     description: 'Thank you for beliving in me. Without the support from sponsors my expedition and adventures would never been possible. I am very grateful for the support and look forward to a crazy journey ahead together.',
     buttonLabel: 'SUPPORT ME',
     imgStart: '',
-    img: require('../../images/svg-1.webp').default,
+    img: require('../../images/logo-white.jpg').default,
     alt: ''
   }
   

@@ -7,7 +7,7 @@ export const homeObjOne = {
   topLine: 'THIS PAGE IS UNDER CONSTRUCTION',
   buttonLabel: 'VISIT MY OLD BLOG',
   imgStart: '',
-  img: require('../../images/ColourTransparent_NoTitle.png.jpg').default,
+  img: require('../../images/logo-white.jpg').default,
   alt: 'South Pole',
   start: ''
 } 
