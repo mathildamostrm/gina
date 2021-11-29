@@ -1,5 +1,5 @@
 import React from 'react'
-import { SouthPoleSection, SouthPoleTextSection, SouthPoleSponsorSection, SouthPoleTeamSection, PingvinCards } from '../../components'
+import { SouthPoleSection, SouthPoleTextSection, SouthPoleSponsorSection, SponsorLogosSection, SouthPoleTeamSection, PingvinCards } from '../../components'
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './data'
 
 function SouthPole() {
@@ -9,6 +9,7 @@ function SouthPole() {
       <SouthPoleTextSection {...homeObjTwo} />
       <SouthPoleSponsorSection {...homeObjThree} />
       <PingvinCards />
+      <SponsorLogosSection />
       <SouthPoleTeamSection {...homeObjFour} />
     </>
   )
