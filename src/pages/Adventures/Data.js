@@ -9,7 +9,8 @@ export const homeObjOne = {
     buttonLabel: 'READ MORE',
     imgStart: '',
     img: require('../../images/logo-white.jpg').default,
-    alt: 'Norge på langs 2019'
+    alt: 'Norge på langs 2019',
+    link: '/norge-pa-langs'
   };
   
   export const homeObjTwo = {
@@ -23,7 +24,8 @@ export const homeObjOne = {
     buttonLabel: 'READ MORE',
     imgStart: '',
     img: require('../../images/lake-baikal.jpeg').default,
-    alt: 'Lake Baikal'
+    alt: 'Lake Baikal',
+    link: '/lake-baikal'
   };
   
   export const homeObjThree = {
@@ -36,7 +38,8 @@ export const homeObjOne = {
     buttonLabel: 'READ MORE',
     imgStart: 'start',
     img: require('../../images/logo-white.jpg').default,
-    alt: 'Vault'
+    alt: 'Nordkapp to Jäckvik',
+    link: '/nordkapp-to-jackvik'
   };
   
   export const homeObjFour = {
@@ -49,5 +52,6 @@ export const homeObjOne = {
     buttonLabel: 'READ MORE',
     imgStart: 'start',
     img: require('../../images/australia-bicycle.webp').default,
-    alt: 'Vault'
+    alt: 'Sydney to Cairns',
+    link: '/sydney-to-cairns'
   };

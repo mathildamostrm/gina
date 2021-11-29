@@ -3,6 +3,10 @@ import GlobalStyle from './global-styles'
 import Home from './pages/home/home'
 import SouthPole from './pages/south-pole/southpole'
 import Adventures from './pages/adventures/adventures'
+import NorgePaLangs from './pages/adventures/norge-pa-langs/norge-pa-langs'
+import LakeBaikal from './pages/adventures/lake-baikal/lake-baikal'
+import NordkappToJackvik from './pages/adventures/nordkapp-to-jäckvik/nordkapp-to-jäckvik'
+import SydneyToCairns from './pages/adventures/sydney-to-cairns/sydney-to-carins'
 //import SignUp from './pages/SignUp/SignUp'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import ScrollToTop from './components/scroll-to-top'
@@ -26,6 +30,10 @@ function App() {
         <Route path='/southpole' component={SouthPole} />
         <Route path='/sponsors' component={Sponsors} />
         <Route path='/adventures' component={Adventures} />
+        <Route path='/norge-pa-langs' component={NorgePaLangs} />
+        <Route path='/lake-baikal' component={LakeBaikal} />
+        <Route path='/nordkapp-to-jackvik' component={NordkappToJackvik} />
+        <Route path='/sydney-to-cairns' component={SydneyToCairns} />
         <Route path='/blog' component={Blog} />
         <Route path='/about' component={About} />
        {/* <Route path='/sign-up' component={SignUp} /> */}

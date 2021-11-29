@@ -1,101 +1,130 @@
 import React from 'react'
 import PingvinCardsItem from './pingvin-card-item'
 import './pingvin-card.css'
+import { Emperor, King , Gentoo, Rockhopper, Adelie, Chinstrap, Macaroni} from './pingvin-data'
 
 function PingvinCards() {
+    const EmperorText = [
+        Emperor.textOne,
+        Emperor.textTwo,
+        Emperor.textThree,
+        Emperor.textFour,
+        Emperor.textFive,
+        Emperor.textSix,
+        Emperor.textSeven,
+        Emperor.textEight,
+        Emperor.textNine,
+        Emperor.textTen
+    ]
+
+    const KingText = [
+        King.textOne,
+        King.textTwo,
+        King.textThree,
+        King.textFour,
+        King.textFive,
+        King.textSix,
+        King.textSeven,
+        King.textEight
+    ]
+
+    const GentooText = [
+        Gentoo.textOne,
+        Gentoo.textTwo,
+        Gentoo.textThree,
+        Gentoo.textFour,
+        Gentoo.textFive,
+        Gentoo.textSix,
+        Gentoo.textSeven,
+    ]
+
+    const RockhopperText = [
+        Rockhopper.textOne,
+        Rockhopper.textTwo,
+        Rockhopper.textThree,
+        Rockhopper.textFour,
+        Rockhopper.textFive,
+        Rockhopper.textSix,
+        Rockhopper.textSeven,
+    ]
+    
+    const AdelieText = [
+        Adelie.textOne,
+        Adelie.textTwo,
+        Adelie.textThree,
+        Adelie.textFour,
+        Adelie.textFive,
+    ]
+
+    const ChinstrapText = [
+        Chinstrap.textOne,
+        Chinstrap.textTwo,
+        Chinstrap.textThree
+    ]
+
+    const MacaroniText = [
+        Macaroni.textOne,
+        Macaroni.textTwo,
+        Macaroni.textThree,
+        Macaroni.textFour
+    ]
+    
     return (
         <>
         <div className='cards'>
-            <h1>PENGUIN SPONSOR PACKAGE</h1>
+            <h1 className='headline'>PENGUIN SPONSOR PACKAGE</h1>
             <div className='cards-containter'>
                 <div className='cards-wrapper'>
                     <ul className='cards-items'>
                     <PingvinCardsItem
                         src={require('../../images/pingvins/Emperor.jpg').default}
-                        headline='EMPEROR PACKAGE - 300 000 NOK'
-                        label='Only 1 package for sale'
-                        textOne='Motivational talks, workshop or other event as marketing campaign over a three year period'
-                        textTwo='Live updates from the expedition on sponsors socialmedia channel'
-                        textThree='3 x Large logos on the sled (back and both left and right side)'
-                        textFour='Logo on the hat, jacket and pants'
-                        textFive='Logo on the website with link under "Title sponsor"'
-                        textSix='Dedicated post & storys on all Social media channels once a months leading up to the expedition and a period of three months after expedition'
-                        textSeven='Photo with logo on a flag at the South Pole'
-                        textEight='Signed photo from Antarctica'
-                        textNine='One free "Rockhopper package" worth 20 000 nok to donate to a school class'
-                        textTen='Sponsored kilometer'
+                        headline={Emperor.headline}
+                        label={Emperor.label}
+                        text={EmperorText}
                         path='/' />
 
                         <PingvinCardsItem
                         src={require('../../images/pingvins/King.jpg').default}
-                        headline='KING PACKAGE - 70 000 NOK'
-                        label='2 package for sale'
-                        textOne='Motivational talk, workshop or other event as marketing campaign'
-                        textTwo='1 x  logo on the sled  size 2'
-                        textThree='Logo on the jacket'
-                        textFour='Logo on the website with link under "sponsors"'
-                        textFive='Five dedicated post & storys on all Ginas Social media channels over a two year period'
-                        textSix='Photo with logo on a flag at the South Pole together with other sponsors'
-                        textSeven='Signed photo from Antarctica'
-                        textEight='Sponsored kilometer'
+                        headline={King.headline}
+                        label={King.label}
+                        text={KingText}
                         path='/' />
 
                         <PingvinCardsItem
                         src={require('../../images/pingvins/Gentoo.png').default}
-                        headline='GENTOO PACKAGE - 50 000 NOK'
-                        label='8 package for sale'
-                        textOne='Motivational talk'
-                        textTwo='Logo on the sled size 3'
-                        textThree='Logo on the website with link under "sponsors"'
-                        textFour='One dedicated post & story on all Ginas Social media channels'
-                        textFive='Photo with logo on a flag at the South Pole together with other sponsors'
-                        textSix='Signed photo from Antarctica small size'
-                        textSeven='Sponsored kilometer'
+                        headline={Gentoo.headline}
+                        label={Gentoo.label}
+                        text={GentooText}
                         path='/' />
 
                         <PingvinCardsItem
                         src={require('../../images/pingvins/Rockhopper.png').default}
-                        headline='ROCKHOPPER SCHOOL PACKAGE - 20 000 NOK'
-                        label='8 package for sale'
-                        textOne='Motivational talks or workshop'
-                        textTwo='Antarctica info sheet for school education'
-                        textThree='Opportunity to send me questions once under the expedition, leading up to expedition and after'
-                        textFour='Special "Thank you" post on all Ginas social media channels to mention company who has sponsored the school package'
-                        textFive='Signed photo from Antarctica to the company who sponsored a school package'
-                        textSix='Sponsored kilometer with both name on the School class and company  who sponsred the school package'
-                        textSeven='A little surpise souvenir to the kids'
+                        headline={Rockhopper.headline}
+                        label={Rockhopper.label}
+                        text={RockhopperText}
                         path='/' />
                         </ul>
                         
                         <ul className='cards-items'>
                         <PingvinCardsItem
                         src={require('../../images/pingvins/Adelie.png').default}
-                        headline='ADELIE PACKAGE - 10 000 NOK'
-                        label='Company package'
-                        textOne='Photo/logo on the sled'
-                        textTwo='Antarctica info sheet for school education'
-                        textThree='Sponsored kilometer (link to website)'
-                        textFour='One dedicated post & story on all Ginas Social media channels'
-                        textFive='Signed photo from Antarctica'
+                        headline={Adelie.headline}
+                        label={Adelie.label}
+                        text={AdelieText}
                         path='/' />
 
                         <PingvinCardsItem
                         src={require('../../images/pingvins/Chinstrap.png').default}
-                        headline='CHINSTRAP PACKAGE - 1000 NOK'
-                        label='Private people only package'
-                        textOne='Photo/logo on the sled'
-                        textTwo='Special "thank you" post on all Ginas Social media channels (story on IG)'
-                        textThree='Sponsored kilometer'
+                        headline={Chinstrap.headline}
+                        label={Chinstrap.label}
+                        text={ChinstrapText}
                         path='/' />
 
                         <PingvinCardsItem
                         src={require('../../images/pingvins/Macaroni.png').default}
-                        headline='MACARONI KIDS PACKAGE - 500 NOK'
-                        label='Kids package'
-                        textOne='Antarctica info sheet'
-                        textTwo='Sponsored kilometer'
-                        textThree='A little souvenir'
-                        textFour='Opportunity for a special "thank you" post on all Ginas Social media channels (story on IG)'
+                        headline={Macaroni.headline}
+                        label={Macaroni.label}
+                        text={MacaroniText}
                         path='/' />
                     </ul>
                 </div>
