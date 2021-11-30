@@ -23,6 +23,6 @@ export const homeObjOne = {
     descriptionFour: 'Sponsorship of a kilometer is non-refundable. No funds will be returned if the kilometer purchased is not covered on the expedition due to a reduction in route length or if the expedition is curtailed or abandoned',
     descriptionFive: 'Sponsor a kilometer has been designed for fans and followers to participate in the expedition. If you are interested in commercial sponsorship of the Ginas Expedition please get in touch on email: adventure@ginajohansen.com',
     imgStart: '',
-    img: require('../../images/logo-white.jpg').default,
+    img: require('../../images/logo-black.jpg').default,
     alt: 'South Pole'
   }

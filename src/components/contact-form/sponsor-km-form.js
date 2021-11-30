@@ -1,7 +1,7 @@
 import React from 'react'
 import useForm from './use-form'
 import validate from './validate-info'
-import './form.css'
+import './styles/form.css'
 
 function SponsorKmForm ({ submitForm }) {
   const { handleChange, values, handleSubmit, form, errors } = useForm(

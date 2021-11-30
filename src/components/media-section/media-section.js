@@ -22,7 +22,7 @@ function MediaSection ({
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <MediaTextSection>
         <MediaWrapper>
-          <MediaHeading>SOME GOOD HEADLINE</MediaHeading>
+          <MediaHeading>UNDER CONSTRUCTION</MediaHeading>
           <MediaContainer>
             <MediaCard to='/'>
               <MediaCardInfo>

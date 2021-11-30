@@ -1,5 +1,5 @@
 import React from 'react'
-import './payment.css'
+import './styles/payment.css'
 
 const Payment = () => {
     return (
