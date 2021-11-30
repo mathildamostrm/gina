@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 import {
   FaFacebook,
   FaInstagram,
-  FaTwitter
+  FaTwitter,
+  FaEnvelope
 } from 'react-icons/fa'
 import {
   FooterContainer,
@@ -22,18 +23,23 @@ import {
   SocialMediaWrap,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
+  ImgWrapper,
+  Img
 } from './footer.elements'
+
 
 
 function Footer() {
   return (
-    <FooterContainer>
-      
+    <FooterContainer>     
       <FooterLinksContainer>
-        <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle>CONTACT</FooterLinkTitle>
+       <ImgWrapper>
+          <Img src={require('../../images/pingvins-no-text/Penguins.png').default}></Img>
+       </ImgWrapper>
+        {/* <FooterLinksWrapper> */}
+          {/* <FooterLinkItems> */}
+            {/* <FooterLinkTitle>CONTACT</FooterLinkTitle>
             <FooterLink to='/contact'>CONTACT</FooterLink>
             <FooterLink to='/media'>MEDIA</FooterLink>
             <FooterLink to='/'>DESTINATIONS</FooterLink>
@@ -45,15 +51,20 @@ function Footer() {
             <FooterLinkTitle>SOCIAL MEDIA</FooterLinkTitle>
             <FooterLink to={{ pathname:'https://www.instagram.com/ginajohansen91' }} target='_blank'>INSTAGRAM</FooterLink>
             <FooterLink to={{ pathname:'https://www.facebook.com/ginajohansen91' }} target='_blank'>FACEBOOK</FooterLink>
-            <FooterLink to={{ pathname:'https://twitter.com/ginajohansen91' }} target='_blank'>TWITTER</FooterLink>
-          </FooterLinkItems>
-        </FooterLinksWrapper>
+            <FooterLink to={{ pathname:'https://twitter.com/ginajohansen91' }} target='_blank'>TWITTER</FooterLink> */}
+          {/* </FooterLinkItems> */}
+        {/* </FooterLinksWrapper> */}
       </FooterLinksContainer>
 
       <SocialMedia>
         <SocialMediaWrap>
-          <WebsiteRights>GINA JOHANSEN © 2021</WebsiteRights>
+          <WebsiteRights>GINA JOHANSEN © 2021</WebsiteRights>        
           <SocialIcons>
+          <Link to={{ pathname:'/contact' }} target='_blank'>
+            <SocialIconLink aria-label='Email'>
+              <FaEnvelope />
+            </SocialIconLink>
+            </Link>
             <Link to={{ pathname:'https://www.facebook.com/ginajohansen91' }} target='_blank'>
             <SocialIconLink aria-label='Facebook'>
               <FaFacebook />

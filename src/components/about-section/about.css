@@ -1,0 +1,11 @@
+.list {
+    color: black;
+    max-width: 940px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+ul.a {
+    list-style-type: circle;
+  }

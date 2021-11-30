@@ -15,7 +15,7 @@ export const AboutRow = styled.div`
 `
 
 export const AboutColumn = styled.div`
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   padding-right: 15px;
   padding-left: 15px;
   flex: 1;
@@ -39,7 +39,7 @@ export const TextWrapper = styled.div`
 `
 
 export const ImgWrapper = styled.div`
-  max-width: 555px;
+  max-width: 400px;
   display: flex;
   justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
 `
@@ -57,13 +57,14 @@ export const Img = styled.img`
   padding-right: 0;
   border: 0;
   max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   vertical-align: middle;
   display: inline-block;
   max-height: 800px;
 `
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
+  margin-bottom: 60px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
@@ -73,7 +74,7 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 940px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#fff' : 'black')};
 `

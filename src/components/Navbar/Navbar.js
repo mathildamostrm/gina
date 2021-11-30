@@ -73,6 +73,11 @@ function Navbar() {
                   ABOUT
                 </NavLinks>
               </NavItem>
+              <NavItem>
+                <NavLinks to='/media' onClick={closeMobileMenu}>
+                  MEDIA
+                </NavLinks>
+              </NavItem>
             {/*  <NavItemBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>

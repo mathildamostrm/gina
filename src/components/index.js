@@ -11,7 +11,6 @@ export { default as HeroSection } from './home-section/home-section'
 export { default as AboutSection } from './about-section/about-section'
 
 export { default as SouthPoleSection } from './southpole-section/southpole-section'
-export { default as SouthPoleTextSection } from './southpole-section/southpole-text-section'
 export { default as SouthPoleSponsorSection } from './southpole-section/southpole-sponsor-section'
 export { default as SouthPoleTeamSection } from './southpole-section/southpole-team-section'
 

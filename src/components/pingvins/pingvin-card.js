@@ -1,7 +1,8 @@
 import React from 'react'
 import PingvinCardsItem from './pingvin-card-item'
-import './pingvin-card.css'
+import './styles/pingvin-card.css'
 import { Emperor, King , Gentoo, Rockhopper, Adelie, Chinstrap, Macaroni} from './pingvin-data'
+
 
 function PingvinCards() {
     const EmperorText = [
@@ -74,6 +75,7 @@ function PingvinCards() {
         <div className='cards'>
             <h1 className='headline'>PENGUIN SPONSOR PACKAGE</h1>
             <div className='cards-containter'>
+            <div className='slider-container'>
                 <div className='cards-wrapper'>
                     <ul className='cards-items'>
                     <PingvinCardsItem
@@ -103,9 +105,7 @@ function PingvinCards() {
                         label={Rockhopper.label}
                         text={RockhopperText}
                         path='/' />
-                        </ul>
                         
-                        <ul className='cards-items'>
                         <PingvinCardsItem
                         src={require('../../images/pingvins/Adelie.png').default}
                         headline={Adelie.headline}
@@ -127,6 +127,7 @@ function PingvinCards() {
                         text={MacaroniText}
                         path='/' />
                     </ul>
+                </div>
                 </div>
             </div>
         </div>
