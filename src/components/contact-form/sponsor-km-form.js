@@ -4,7 +4,7 @@ import validate from './validate-info'
 import './styles/form.css'
 
 function SponsorKmForm ({ submitForm }) {
-  const { handleChange, values, handleSubmit, form, errors } = useForm(
+  const { handleChange, values, handleSubmit, form, errors, handleCheckBox, Checkbox, checked } = useForm(
     submitForm,
     validate
   )
@@ -82,14 +82,17 @@ function SponsorKmForm ({ submitForm }) {
         value={values.message}
         onChange={handleChange} />
     </div>
-
     <div className='form-inputs'>
-      <label className='form-label'>
-       <div className='terms' onClick={()=> window.open('/terms-and-conditions', '_blank')}><u>ACCEPT TERMS & CONDITIONS</u></div>
-       <input 
-        type='checkbox'
-        onChange={handleChange} />
-      </label>
+    <label className='form-label'>
+      <div 
+      className='terms' 
+      onClick={()=> window.open('/terms-and-conditions', '_blank')}>
+        <u>ACCEPT TERMS & CONDITIONS</u>
+        </div>
+        <Checkbox
+        value={checked}
+        onChange={handleCheckBox} />
+    </label>
     </div>
 
      <button className='form-input-btn' type='submit'>SEND</button>

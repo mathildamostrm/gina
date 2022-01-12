@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const SponsorSec = styled.div`
   color: #fff;
-  padding: 160px 0;
+  padding: 100px 0;
   background: ${({ lightBg }) => (lightBg ? 'black' : '#fff')};
 `
 

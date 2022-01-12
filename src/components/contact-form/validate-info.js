@@ -21,9 +21,9 @@ if(!values.link.trim()) {
 
 if(!values.km.trim()) {
     errors.km = 'Please choose a kilometer'
-} /*else if(!) {
-    errors.km = 'Please choose a kilometer from 1 to 1130'
-} */  // TODO: Fix valid km input
+} if (values.km < 0 || values.km >= 1130) {
+    errors.km = 'Please choose a valid kilometer'
+}
 
 return errors
 

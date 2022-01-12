@@ -21,6 +21,7 @@ export { default as BlogSection } from './blog-section/blog-section'
 
 export { default as SponsorSection } from './sponsor-section/sponsor-section'
 export { default as Form } from './contact-form/form'
+export { default as HeaderSection } from './contact-form/header/header'
 
 export { default as MediaSection } from './media-section/media-section'
 

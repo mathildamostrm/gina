@@ -1,12 +1,12 @@
 import React from 'react'
-import { Form, TextSection } from '../../components'
+import { Form, HeaderSection } from '../../components'
 import { homeObjOne } from './data'
 
 
 function SponsorKilometer() {
     return(
         <>
-        <TextSection {...homeObjOne}/>
+        <HeaderSection {...homeObjOne}/>
         <Form />
         </>
     ) 

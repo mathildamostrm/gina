@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const SouthPoleSec = styled.div`
   color: #fff;
-  padding: 160px 0;
+  padding: 50px 0;
   background: ${({ lightBg }) => ('#fff')};
 `
 

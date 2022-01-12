@@ -8,11 +8,10 @@ const useForm = (callback, validate) => {
         email: '',
         link: '',
         km: '',
-        message: '',
+        message: ''
     })
 const [errors, setErrors] = useState({})
 const [isSubmitting, setIsSubmitting] = useState(false)
-const [agree, setAgree] = useState(false)
 
 const handleChange = e => {
     const { name, value } = e.target
@@ -27,20 +26,36 @@ const handleChange = e => {
  const handleSubmit = e => {
      e.preventDefault()
      setErrors(validate(values))
-     setAgree(!agree)
-     setIsSubmitting(true)
+     setIsSubmitting(isSubmitting)  //varför blir den inte true??
 
-     if(isSubmitting && setAgree) {
+     if(isSubmitting) {
+        console.log('Sending mail')
         emailjs.sendForm('gina', 'template_gina', form.current, 'user_vToDYJs5h0fUT5PHPf5sd')
         .then((result) => {
             console.log(result.text)
         }, (error) => {
             console.log(error.text)
         })
-     }
-
+    }
    e.target.reset()
  }
+
+const [checked, setIsChecked] = useState(false)
+
+const handleCheckBox = () => {
+  setIsChecked(!checked)
+}
+
+const Checkbox = ({ value, onChange }) => {
+  return (
+  <div>
+    <input 
+    type='checkbox'
+    checked={value}
+    onChange={onChange} />
+  </div>
+  )
+}
 
  useEffect(() => {
      if(Object.keys(errors).length === 0 && isSubmitting) {
@@ -48,7 +63,7 @@ const handleChange = e => {
      }
  }, [errors])
 
- return { handleChange, values, handleSubmit, form, errors }
+ return { handleChange, values, handleSubmit, form, errors, handleCheckBox, Checkbox, checked }
 }
 
 export default useForm
